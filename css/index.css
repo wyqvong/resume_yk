@@ -24,6 +24,7 @@
 	width: 100%;	
 }
 img.face{
+	object-fit: contain; /* 图片等比例缩放 */
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
@@ -95,7 +96,7 @@ img.face{
 	justify-content:center;
 }
 .nav1-con-u2 ul{
-	width: 350px;
+	width: 445px;
 	border: 1px solid rgb(14,106,184);
 	box-shadow: 0px 0px 0px 1px rgb(43,458,255);
 	border-radius: 5px;
@@ -280,7 +281,7 @@ img.face{
 .line4{
 	position: absolute;
 	background:linear-gradient(to right, rgba(24,142,238), rgba(24,210,254));
-	width: 40%;
+	width: 80%;
 	height: 5px;
 	border-radius: 15px;	
 }
@@ -292,7 +293,7 @@ img.face{
 .line5{
 	position: absolute;
 	background:linear-gradient(to right, rgba(24,142,238), rgba(24,210,254));
-	width: 80%;
+	width: 70%;
 	height: 5px;
 	border-radius: 15px;	
 }
@@ -303,7 +304,7 @@ img.face{
 .line6{
 	position: absolute;
 	background:linear-gradient(to right, rgba(24,142,238), rgba(24,210,254));
-	width: 60%;
+	width: 50%;
 	height: 5px;
 	border-radius: 15px;
 }
